@@ -1,0 +1,49 @@
+﻿{
+  "name": "four-plus-windows-layout",
+  "layout": "custom",
+  "splits": [
+    {
+      "axis": "vertical",
+      "ratio": 0.6,
+      "splits": [
+        {
+          "axis": "horizontal",
+          "ratio": 0.5,
+          "splits": [
+            {
+              "axis": "vertical",
+              "ratio": 0.5,
+              "splits": []
+            },
+            {
+              "axis": "vertical",
+              "ratio": 0.5,
+              "splits": []
+            }
+          ]
+        },
+        {
+          "axis": "horizontal",
+          "ratio": 0.5,
+          "splits": []
+        }
+      ]
+    },
+    {
+      "axis": "horizontal",
+      "ratio": 0.5,
+      "splits": [
+        {
+          "axis": "vertical",
+          "ratio": 0.5,
+          "splits": []
+        },
+        {
+          "axis": "vertical",
+          "ratio": 0.5,
+          "splits": []
+        }
+      ]
+    }
+  ]
+}

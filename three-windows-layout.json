@@ -1,0 +1,27 @@
+﻿{
+  "name": "three-windows-layout",
+  "layout": "custom",
+  "splits": [
+    {
+      "axis": "vertical",
+      "ratio": 0.5,
+      "splits": []
+    },
+    {
+      "axis": "horizontal",
+      "ratio": 0.5,
+      "splits": [
+        {
+          "axis": "vertical",
+          "ratio": 0.5,
+          "splits": []
+        },
+        {
+          "axis": "vertical",
+          "ratio": 0.5,
+          "splits": []
+        }
+      ]
+    }
+  ]
+}
