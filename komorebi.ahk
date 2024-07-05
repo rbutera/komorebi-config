@@ -5,10 +5,18 @@ Komorebic(cmd) {
     RunWait(format("komorebic.exe {}", cmd), , "Hide")
 }
 
-; Special keybind for F15 and Shift together
-F15::Komorebic("promote-focus")
+; Special keybind for F15 tapped by itself
+F15::
+{
+    KeyWait "F15"
+    if (A_PriorKey = "F15")
+    {
+        Komorebic("promote")
+    }
+}
 
 ; mod1 bindings (F15)
+F15 & Enter::Komorebic("promote")
 F15 & Space::Komorebic("cycle-layout next")
 F15 & h::Komorebic("resize-axis horizontal decrease")
 F15 & l::Komorebic("resize-axis horizontal increase")
